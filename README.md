@@ -11,7 +11,9 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 **Print do teste da API com visualização do JSON**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR**
 

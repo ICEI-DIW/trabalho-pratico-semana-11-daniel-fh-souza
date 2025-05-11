@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Back end com JSONServer. Projeto da disciplina de Desenvolvimento de Interfaces Web de vários cursos da PUC Minas",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx json-server ./db/db.json"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ICEI-DIW/trabalho-pratico-semana-11-daniel-fh-souza/issues"
   },
+  "scripts": {
+  "start": "json-server --watch db/db.json --port 3000 --static ./public"
+},
   "homepage": "https://github.com/ICEI-DIW/trabalho-pratico-semana-11-daniel-fh-souza#readme"
 }
