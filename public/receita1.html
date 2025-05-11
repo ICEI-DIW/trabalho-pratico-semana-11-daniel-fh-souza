@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhe do Item</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+    
+        <header class="header p-3 bg-light mb-4">
+            <div class="container-fluid">
+                <h1 class="h3">Detalhes do Item</h1>
+            </div>
+        </header>
+    
+        <main class="container-fluid">
+            <div class="row">
+    
+                <aside class="sidebar col-12 col-md-2 mb-4">
+                    <button class="btn btn-outline-primary w-100 mb-2">Início</button>
+                    <button class="btn btn-outline-primary w-100 mb-2">Itens em Destaque</button>
+                    <button class="btn btn-outline-primary w-100 mb-2">Todos os Itens</button>
+                </aside>
+    
+                <section class="content col-12 col-md-10">
+                    <section class="item-info mb-5">
+                        <h2>Informações Gerais</h2>
+                        <div class="row align-items-center mt-4">
+                            <div class="col-md-4 text-center">
+                                <img src="https://picsum.photos/200/150" class="img-fluid rounded" alt="Imagem do item">
+                            </div>
+                            <div class="col-md-8">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Nome: <strong>Pizza Margherita Caseira</strong></li>
+                                    <li class="list-group-item">Categoria: <strong>Receita</strong></li>
+                                    <li class="list-group-item">Descrição: <strong>Uma delicia feita no forno</strong></li>
+                                    <li class="list-group-item">Tempo de Preparo: <strong>1h 30min</strong></li>
+                                    <li class="list-group-item">Serve: <strong>4 porções </strong></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="item-photos mb-5">
+                        <h2>Fotos do Item</h2>
+    
+                        <div id="itemPhotosCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://picsum.photos/200/150?random=1" class="d-block w-100" alt="Foto 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/200/150?random=2" class="d-block w-100" alt="Foto 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/200/150?random=3" class="d-block w-100" alt="Foto 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/200/150?random=4" class="d-block w-100" alt="Foto 4">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#itemPhotosCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#itemPhotosCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Próximo</span>
+                            </button>
+                        </div>
+                    </section>
+    
+                </section>
+    
+            </div>
+        </main>
+    
+        <footer class="footer bg-light text-center p-3 mt-4">
+            <p class="mb-0">&copy; 2025 - Projeto de Site</p>
+        </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+            crossorigin="anonymous"></script>
+        <script src="receitas.js"></script>
+    </body>
+    
+    </html>

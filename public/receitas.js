@@ -1,0 +1,38 @@
+const receitasRecentes = [
+    {
+      id: 1,
+      nome: "Bolo de Chocolate Cremoso",
+      imagem: "https://picsum.photos/seed/bolo/800/400",
+      descricao: "Perfeito para a sobremesa. Macio, úmido e com cobertura irresistível de chocolate."
+    },
+    {
+      id: 2,
+      nome: "Pizza Margherita Caseira",
+      imagem: "https://picsum.photos/seed/pizza/800/400",
+      descricao: "Uma delícia feita no forno com molho de tomate fresco, muçarela e manjericão."
+    },
+    {
+      id: 3,
+      nome: "Salada Nutritiva com Quinoa",
+      imagem: "https://picsum.photos/seed/salada/800/400",
+      descricao: "Leve, saudável e cheia de sabor. Ideal para quem busca alimentação equilibrada."
+    },
+    {
+      id: 4,
+      nome: "Cookies com Gotas de Chocolate",
+      imagem: "https://picsum.photos/seed/cookies/800/400",
+      descricao: "Croquantes por fora, macios por dentro. Perfeitos para o café da tarde."
+    },
+    {
+      id: 5,
+      nome: "Escondidinho de Carne Seca",
+      imagem: "https://picsum.photos/seed/escondidinho/800/400",
+      descricao: "Uma explosão de sabores nordestinos! Purê de mandioca com carne bem temperada."
+    },
+    {
+      id: 6,
+      nome: "Suco Verde Detox",
+      imagem: "https://picsum.photos/seed/sucoverde/800/400",
+      descricao: "Refrescante e revitalizante. Ótimo para começar o dia com energia."
+    }
+  ];
